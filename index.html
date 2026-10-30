@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#101114" />
+  <meta name="description" content="Discover the latest smartphones and accessories at Malak Mobile Zone." />
+  <title>Malak Mobile Zone — Find Your Next Phone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="shop.css" />
+</head>
+<body>
+  <div class="announcement">New arrivals just landed <span>✦</span> Visit us for the best local deals</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Malak Mobile Zone home"><span class="brand-mark">M<span>•</span></span><span class="brand-name">MALAK <b>MOBILE ZONE</b></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main navigation"><a href="#home">Home</a><a href="#collection">Collection</a><a href="#about">About us</a><a href="#contact">Contact</a></nav>
+    <a class="header-cta" href="#collection">Explore phones <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> YOUR NEXT UPGRADE STARTS HERE</div>
+        <h1>Made for your<br />next <em>big thing.</em></h1>
+        <p>Shop smartphones, earbuds, smart watches, cases, chargers, and everyday mobile accessories at Malak Mobile Zone.</p>
+        <div class="hero-actions"><a href="#collection" class="button button-primary">Shop phones & accessories <span>↗</span></a><a href="#about" class="text-link">Why shop with us <span>↓</span></a></div>
+        <div class="hero-footnote"><div class="avatar-stack"><span>M</span><span>+</span><span>★</span></div><div><b>Your neighborhood phone experts</b><small>Here to help you find the right fit</small></div></div>
+      </div>
+      <div class="hero-art" aria-label="Featured modern smartphone">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="hero-glow"></div>
+        <div class="hero-note note-top"><span class="note-icon">✦</span><span><b>New season</b><small>Fresh arrivals</small></span></div>
+        <div class="phone hero-phone"><div class="phone-side"></div><div class="phone-frame"><div class="phone-screen"><img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=1000&q=90" alt="Premium smartphone with a vivid abstract wallpaper" /><div class="screen-time">9:41</div><div class="screen-island"></div><div class="screen-date">Tuesday, October 30</div><div class="screen-weather">☀ <b>24°</b><small> A good day to upgrade</small></div><div class="screen-dock"><i>●</i><i>◉</i><i>◌</i><i>◎</i></div></div></div></div>
+        <div class="hero-note note-bottom"><span class="sparkle">✳</span><span><b>Find your favorite</b><small>Style meets everyday tech</small></span></div>
+        <div class="hero-caption">A LITTLE MORE YOU <span>—</span> EVERY DAY</div>
+      </div>
+      <a class="scroll-cue" href="#collection"><span></span> SCROLL TO DISCOVER</a>
+    </section>
+
+    <section class="collection section-pad" id="collection">
+      <div class="section-heading"><div><div class="eyebrow"><span></span> SHOP MALAK MOBILE ZONE</div><h2>Find your next <em>favorite.</em></h2></div><p class="store-note">Browse phones and accessories, then message us on WhatsApp to check stock and today's price.</p></div>
+      <div class="shop-tools"><div class="category-filters" role="group" aria-label="Filter products"><button class="filter-button active" data-filter="all">All products</button><button class="filter-button" data-filter="phones">Phones</button><button class="filter-button" data-filter="audio">Audio</button><button class="filter-button" data-filter="accessories">Accessories</button></div><label class="search-box"><span>⌕</span><input id="product-search" type="search" placeholder="Search products" aria-label="Search products"></label></div>
+      <div class="product-grid" id="product-grid" aria-live="polite">
+        <article class="product-card card-lilac"><div class="product-top"><span class="product-tag">JUST LANDED</span><button class="save-button" aria-label="Save Galaxy S series">♡</button></div><div class="product-image"><img src="https://images.unsplash.com/photo-1706372201245-1f62a39e8d59?auto=format&fit=crop&w=900&q=85" alt="Sleek dark flagship smartphone" loading="lazy" /><span class="image-orb"></span></div><div class="product-info"><div><span class="product-category">SAMSUNG</span><h3>Galaxy S Series</h3><p>Big ideas. Beautifully bright.</p></div><a class="product-arrow" href="#contact" aria-label="Ask about Galaxy S Series">↗</a></div></article>
+        <article class="product-card card-peach"><div class="product-top"><span class="product-tag">A FAN FAVORITE</span><button class="save-button" aria-label="Save iPhone">♡</button></div><div class="product-image"><img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=900&q=85" alt="iPhone-style smartphone with a colorful screen" loading="lazy" /><span class="image-orb"></span></div><div class="product-info"><div><span class="product-category">APPLE</span><h3>iPhone Collection</h3><p>Effortless in every detail.</p></div><a class="product-arrow" href="#contact" aria-label="Ask about iPhone collection">↗</a></div></article>
+        <article class="product-card card-blue"><div class="product-top"><span class="product-tag">SMART & READY</span><button class="save-button" aria-label="Save accessories">♡</button></div><div class="product-image"><img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=900&q=85" alt="Wireless earbuds and smartphone accessories" loading="lazy" /><span class="image-orb"></span></div><div class="product-info"><div><span class="product-category">EXTRAS</span><h3>Everyday Essentials</h3><p>Little things. Big difference.</p></div><a class="product-arrow" href="#contact" aria-label="Ask about everyday essentials">↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="story section-pad" id="about"><div class="story-visual"><div class="story-image"><img src="https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=1100&q=85" alt="A colorful display of smartphones and electronics in a mobile shop" loading="lazy" /></div><div class="story-sticker">YOUR TECH,<br /><i>YOUR WAY</i> ✳</div></div><div class="story-copy"><div class="eyebrow"><span></span> A SHOP THAT GETS YOU</div><h2>Good tech.<br /><em>Good people.</em></h2><p>Picking a phone should feel exciting, not overwhelming. At Malak Mobile Zone, we make it easy to compare, ask questions, and leave with something you'll love using every day.</p><div class="promise-list"><div><span>01</span><b>Friendly, honest advice</b><i>→</i></div><div><span>02</span><b>Phones for every kind of you</b><i>→</i></div><div><span>03</span><b>Accessories that make it yours</b><i>→</i></div></div><a class="button button-dark" href="#contact">Come say hello <span>↗</span></a></div></section>
+
+    <section class="contact section-pad" id="contact"><div class="contact-text"><div class="eyebrow"><span></span> WE'RE RIGHT HERE</div><h2>Let's find your<br /><em>perfect match.</em></h2><p>Tell us what you're looking for, and our team will help you find the right phone for your life.</p></div><div class="contact-card"><div class="contact-icon">↗</div><span>COME VISIT OR GET IN TOUCH</span><h3>Malak Mobile Zone</h3><p>Message us on WhatsApp for today's availability and offers.</p><a class="contact-link" href="https://wa.me/923095650719" target="_blank" rel="noopener noreferrer">WhatsApp: 0309 5650719 <span>↗</span></a><div class="contact-divider"></div><a class="contact-link" href="mailto:malakmobilezone2027@gmail.com">malakmobilezone2027@gmail.com <span>↗</span></a></div></section>
+  </main>
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">M<span>•</span></span><span class="brand-name">MALAK <b>MOBILE ZONE</b></span></a><p>Good tech for the way you live.</p><span class="footer-copy">© <span id="year"></span> Malak Mobile Zone</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
